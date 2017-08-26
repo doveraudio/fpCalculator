@@ -4,13 +4,13 @@
     <PathDelim Value="\"/>
     <Version Value="10"/>
     <BuildModes Active="Default"/>
-    <Units Count="4">
+    <Units Count="11">
       <Unit0>
         <Filename Value="calculator.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="9"/>
         <CursorPos Y="16"/>
-        <UsageCount Value="52"/>
+        <UsageCount Value="66"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -19,9 +19,9 @@
         <ComponentName Value="FormCalculator"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="87"/>
-        <CursorPos X="6" Y="89"/>
-        <UsageCount Value="52"/>
+        <TopLine Value="163"/>
+        <CursorPos X="18" Y="175"/>
+        <UsageCount Value="66"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -29,139 +29,197 @@
         <Filename Value="calculatorengine.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="CalculatorEngine"/>
-        <UsageCount Value="52"/>
+        <UsageCount Value="66"/>
       </Unit2>
       <Unit3>
         <Filename Value="calculatorengineunit.pas"/>
         <UnitName Value="CalculatorEngineUnit"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="116"/>
-        <CursorPos X="29" Y="139"/>
-        <UsageCount Value="35"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="96"/>
+        <CursorPos X="37" Y="119"/>
+        <UsageCount Value="42"/>
         <Loaded Value="True"/>
       </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="2727"/>
+        <CursorPos Y="2740"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\lazarus\lcl\include\buttoncontrol.inc"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="9"/>
+        <CursorPos Y="21"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\lcl\include\buttons.inc"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="158"/>
+        <CursorPos Y="170"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\lcl\include\wincontrol.inc"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="5374"/>
+        <CursorPos Y="5385"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\lazarus\lcl\lclmessageglue.pas"/>
+        <UnitName Value="LCLMessageGlue"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="110"/>
+        <CursorPos Y="123"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\lazarus\lcl\lclclasses.pp"/>
+        <UnitName Value="LCLClasses"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="141"/>
+        <CursorPos Y="154"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="1920"/>
+        <CursorPos Y="1932"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit10>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="calculatorengineunit.pas"/>
-        <Caret Line="109" Column="38" TopLine="90"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2500" TopLine="2489"/>
       </Position1>
       <Position2>
-        <Filename Value="calculatorengineunit.pas"/>
-        <Caret Line="10" Column="26" TopLine="10"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2559" TopLine="2548"/>
       </Position2>
       <Position3>
-        <Filename Value="calculatorengineunit.pas"/>
-        <Caret Line="126" Column="38" TopLine="103"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2565" TopLine="2548"/>
       </Position3>
       <Position4>
-        <Filename Value="calculatorengineunit.pas"/>
-        <Caret Line="124" Column="29" TopLine="103"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2566" TopLine="2548"/>
       </Position4>
       <Position5>
-        <Filename Value="calculatorengineunit.pas"/>
-        <Caret Line="61" Column="18" TopLine="48"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2567" TopLine="2548"/>
       </Position5>
       <Position6>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="56" Column="3" TopLine="33"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2568" TopLine="2549"/>
       </Position6>
       <Position7>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="59" Column="59" TopLine="51"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2569" TopLine="2550"/>
       </Position7>
       <Position8>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="81" Column="26" TopLine="62"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2570" TopLine="2551"/>
       </Position8>
       <Position9>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="87" Column="3" TopLine="68"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2571" TopLine="2552"/>
       </Position9>
       <Position10>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="93" Column="3" TopLine="74"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2572" TopLine="2553"/>
       </Position10>
       <Position11>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="99" Column="3" TopLine="80"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2573" TopLine="2554"/>
       </Position11>
       <Position12>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="105" Column="3" TopLine="86"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="1932" TopLine="1920"/>
       </Position12>
       <Position13>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="111" Column="3" TopLine="92"/>
+        <Filename Value="calculatorengineunit.pas"/>
+        <Caret Line="104" TopLine="92"/>
       </Position13>
       <Position14>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="117" Column="3" TopLine="98"/>
+        <Filename Value="calculatorengineunit.pas"/>
+        <Caret Line="214" Column="43" TopLine="199"/>
       </Position14>
       <Position15>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="123" Column="3" TopLine="104"/>
+        <Filename Value="calculatorengineunit.pas"/>
+        <Caret Line="220" TopLine="215"/>
       </Position15>
       <Position16>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="84" Column="23" TopLine="84"/>
+        <Filename Value="calculatorengineunit.pas"/>
+        <Caret Line="97" Column="3" TopLine="87"/>
       </Position16>
       <Position17>
         <Filename Value="calculatorengineunit.pas"/>
-        <Caret Line="71" Column="21"/>
+        <Caret Line="100" Column="3" TopLine="86"/>
       </Position17>
       <Position18>
         <Filename Value="calculatorengineunit.pas"/>
-        <Caret Line="44" Column="21" TopLine="32"/>
+        <Caret Line="256" TopLine="242"/>
       </Position18>
       <Position19>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="8" Column="98"/>
+        <Filename Value="calculatorengineunit.pas"/>
+        <Caret Line="254" TopLine="242"/>
       </Position19>
       <Position20>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="67" Column="30" TopLine="55"/>
+        <Filename Value="calculatorengineunit.pas"/>
+        <Caret Line="257" TopLine="242"/>
       </Position20>
       <Position21>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="75" TopLine="59"/>
+        <Filename Value="calculatorengineunit.pas"/>
+        <Caret Line="118" TopLine="107"/>
       </Position21>
       <Position22>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="49" Column="15" TopLine="38"/>
+        <Filename Value="calculatorengineunit.pas"/>
+        <Caret Line="120" TopLine="107"/>
       </Position22>
       <Position23>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="80" Column="3" TopLine="64"/>
+        <Filename Value="calculatorengineunit.pas"/>
+        <Caret Line="134" TopLine="122"/>
       </Position23>
       <Position24>
-        <Filename Value="calculator.lpr"/>
-        <Caret Line="16"/>
+        <Filename Value="calculatorengineunit.pas"/>
+        <Caret Line="135" TopLine="122"/>
       </Position24>
       <Position25>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="68" Column="25" TopLine="51"/>
+        <Filename Value="calculatorengineunit.pas"/>
+        <Caret Line="136" TopLine="122"/>
       </Position25>
       <Position26>
-        <Filename Value="calculator.lpr"/>
-        <Caret Line="16"/>
+        <Filename Value="calculatorform.pas"/>
+        <Caret Line="97" TopLine="85"/>
       </Position26>
       <Position27>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="68" Column="38" TopLine="51"/>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <Caret Line="2738" TopLine="2727"/>
       </Position27>
       <Position28>
-        <Filename Value="calculatorform.pas"/>
-        <Caret Line="87" TopLine="65"/>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <Caret Line="2740" TopLine="2727"/>
       </Position28>
       <Position29>
         <Filename Value="calculatorform.pas"/>
-        <Caret Line="143" TopLine="122"/>
+        <Caret Line="98" TopLine="86"/>
       </Position29>
       <Position30>
         <Filename Value="calculatorform.pas"/>
-        <Caret Line="72" Column="59" TopLine="66"/>
+        <Caret Line="174" Column="14" TopLine="172"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>

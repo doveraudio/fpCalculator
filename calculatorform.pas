@@ -13,18 +13,18 @@ type
 
   TFormCalculator = class(TForm)
     Button1: TButton;
-    Button10: TButton;
-    Button11: TButton;
-    Button12: TButton;
-    Button13: TButton;
-    Button14: TButton;
+    Button0: TButton;
+    ButtonDecimal: TButton;
+    ButtonSubtract: TButton;
+    ButtonDivide: TButton;
+    ButtonMultiply: TButton;
     ButtonAdd: TButton;
-    Button16: TButton;
-    Button17: TButton;
-    Button18: TButton;
-    Button19: TButton;
+    ButtonDelete: TButton;
+    ButtonEquals: TButton;
+    ButtonMemoryRecall: TButton;
+    ButtonMemoryStore: TButton;
     Button2: TButton;
-    Button20: TButton;
+    ButtonMemoryClear: TButton;
     Button3: TButton;
     Button4: TButton;
     Button5: TButton;
@@ -35,8 +35,8 @@ type
     EditDisplay: TEdit;
     Label1: TLabel;
 
-    procedure Button10Click(Sender: TObject);
-    procedure Button11Click(Sender: TObject);
+    procedure Button0Click(Sender: TObject);
+    procedure ButtonDecimalClick(Sender: TObject);
     procedure ButtonAddClick(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
@@ -47,6 +47,14 @@ type
     procedure Button7Click(Sender: TObject);
     procedure Button8Click(Sender: TObject);
     procedure Button9Click(Sender: TObject);
+    procedure ButtonDeleteClick(Sender: TObject);
+    procedure ButtonDivideClick(Sender: TObject);
+    procedure ButtonEqualsClick(Sender: TObject);
+    procedure ButtonMemoryClearClick(Sender: TObject);
+    procedure ButtonMemoryRecallClick(Sender: TObject);
+    procedure ButtonMemoryStoreClick(Sender: TObject);
+    procedure ButtonMultiplyClick(Sender: TObject);
+    procedure ButtonSubtractClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
 
   private
@@ -72,13 +80,13 @@ begin
 
 end;
 
-procedure TFormCalculator.Button10Click(Sender: TObject);
+procedure TFormCalculator.Button0Click(Sender: TObject);
 begin
      CalcEngine.Append('0');
      FormCalculator.EditDisplay.Text := CalcEngine.TextValue;
 end;
 
-procedure TFormCalculator.Button11Click(Sender: TObject);
+procedure TFormCalculator.ButtonDecimalClick(Sender: TObject);
 begin
   CalcEngine.Append('.');
   FormCalculator.EditDisplay.Text := CalcEngine.TextValue;
@@ -86,7 +94,7 @@ end;
 
 procedure TFormCalculator.ButtonAddClick(Sender: TObject);
 begin
-
+  CalcEngine.AddMode;
 end;
 
 procedure TFormCalculator.Button1Click(Sender: TObject);
@@ -146,6 +154,54 @@ end;
 procedure TFormCalculator.Button9Click(Sender: TObject);
 begin
   CalcEngine.Append('9');
+  FormCalculator.EditDisplay.Text := CalcEngine.TextValue;
+end;
+
+procedure TFormCalculator.ButtonDeleteClick(Sender: TObject);
+begin
+  CalcEngine.DeleteEntry;
+  FormCalculator.EditDisplay.Text := CalcEngine.TextValue;
+end;
+
+procedure TFormCalculator.ButtonDivideClick(Sender: TObject);
+begin
+  CalcEngine.DivideMode;
+  FormCalculator.EditDisplay.Text := CalcEngine.TextValue;
+end;
+
+procedure TFormCalculator.ButtonEqualsClick(Sender: TObject);
+begin
+  CalcEngine.Finalize;
+  CalcEngine.Process;
+end;
+
+procedure TFormCalculator.ButtonMemoryClearClick(Sender: TObject);
+begin
+  CalcEngine.MemoryClear;
+  FormCalculator.EditDisplay.Text := CalcEngine.TextValue;
+end;
+
+procedure TFormCalculator.ButtonMemoryRecallClick(Sender: TObject);
+begin
+  CalcEngine.MemoryRecall;
+  FormCalculator.EditDisplay.Text := CalcEngine.TextValue;
+end;
+
+procedure TFormCalculator.ButtonMemoryStoreClick(Sender: TObject);
+begin
+  CalcEngine.Store;
+  FormCalculator.EditDisplay.Text := CalcEngine.TextValue;
+end;
+
+procedure TFormCalculator.ButtonMultiplyClick(Sender: TObject);
+begin
+  CalcEngine.MultiplyMode;
+  FormCalculator.EditDisplay.Text := CalcEngine.TextValue;
+end;
+
+procedure TFormCalculator.ButtonSubtractClick(Sender: TObject);
+begin
+  CalcEngine.SubtractMode;
   FormCalculator.EditDisplay.Text := CalcEngine.TextValue;
 end;
 
